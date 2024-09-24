@@ -45,4 +45,28 @@
     margin: 0px;
     padding: 5px 0px;
   }
+
+  .skill .col {
+    justify-content: flex-start;
+    align-content: center;
+    display: flex;
+    border: 2px solid;
+    margin: 5px 80px;
+  }
+  .skill p {
+    align-self: center;
+    display: flex;
+    border: 2px solid;
+    height: min-content;
+    margin: 0px 20px;
+  }
+  .portfolio .card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    margin: 5px 80px;
+  }
+
+
 }
