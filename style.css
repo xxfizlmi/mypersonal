@@ -1,0 +1,106 @@
+@import url("responsive.css");
+rt :root {
+  --bg-color-white: white;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #161d6f;
+}
+
+.text-white {
+  color: var(--bg-color-white);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav .nav-img {
+  margin: 0;
+  overflow: hidden;
+  align-content: center;
+}
+.nav-img a {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    align-content: center;
+  }
+  
+
+.nav ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav li {
+  float: left;
+
+  margin: 0px 0px;
+}
+
+.nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+li a {
+    padding: 20px;
+}
+.nav a:hover {
+  background-color: white;
+  color: #000;
+}
+
+main {
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.row > div {
+  text-align: center;
+  width: 50%;
+  align-content: center;
+}
+
+.col-1 > .link-profil{
+    display: flex;
+    justify-content: center;
+}
+
+img {
+  width: 50%;
+}
+
+.link-profil > a:hover {
+    background-color: #161d6f;
+}
+
+.col-1 ul {
+    width: max-content;
+    border: 2px solid;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+}
+
+td {
+    padding: 10px 20px 10px 0px;
+}

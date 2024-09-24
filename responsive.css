@@ -1,0 +1,48 @@
+@media (max-width: 360px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav li {
+    width: 100%;
+  }
+  .nav-img a {
+    padding: 10px 0px;
+  }
+  .nav img {
+    width: 30%;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .row > .col-1 {
+    order: 2;
+    width: 100%;
+  }
+  .row > .col-2 {
+    width: 100%;
+    order: 1;
+  }
+  .col-2 > img {
+    width: 100%;
+  }
+  th {
+    font-size: 15px;
+  }
+
+  td {
+    font-size: 15px;
+  }
+
+  .list-pendidikan tr {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .list-pendidikan td,
+  .list-pendidikan th {
+    margin: 0px;
+    padding: 5px 0px;
+  }
+}
