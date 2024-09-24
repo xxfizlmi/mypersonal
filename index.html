@@ -4,119 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyPersonal</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="nav">
-      <div class="nav-img">
-        <a href=""><img src="img/logo.png" alt="" /></a>
-      </div>
-      <ul class="">
-        <li><a href="" class="text-white">Beranda</a></li>
-        <li><a href="" class="text-white">About</a></li>
-        <li><a href="" class="text-white">Pendidikan</a></li>
-        <li><a href="" class="text-white">Pengalaman</a></li>
-        <li><a href="" class="text-white">Skill</a></li>
-        <li><a href="" class="text-white">Portfolio</a></li>
-      </ul>
-    </nav>
+    <header class="">
+      <nav class="navbar justify-content-space-around">
+        <div class="navbar-logo">
+          <img src="img/logo.png" alt="" class="w-40" />
+        </div>
+        <div>
+          <ul class="m-0">
+            <li class="p-1 align-content-center">
+              <a class="p-1" href="">Berada</a>
+            </li>
+            <li class="p-1 align-content-center">
+              <a class="p-1" href="">Tentang</a>
+            </li>
+            <li class="p-1 align-content-center">
+              <a class="p-1" href="">Pendidikan</a>
+            </li>
+            <li class="p-1 align-content-center">
+              <a class="p-1" href="">Pengalaman</a>
+            </li>
+            <li class="p-1 align-content-center">
+              <a class="p-1" href="">Skill</a>
+            </li>
+            <li class="p-1 align-content-center">
+              <a class="p-1" href="">Portfolio</a>
+            </li>
+            <li class="p-1 align-content-center">
+              <a class="p-1" href="">Kontak saya</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <main>
-      <div class="row">
-        <div class="col-1">
-          <h3>Hello, I am Hafiz</h3>
-          <p>My name is Hafiz Ilmi, I am fronted developer</p>
-          <div class="link-profil">
-            <a href="#"><img src="img/instagram.svg" alt="" /></a>
-            <a href="#"><img src="img/linkedln.svg" alt="" /></a>
-            <a href="#"><img src="img/github.svg" alt="" /></a>
-          </div>
+      <div class="flex justify-content-center m-1 max-600:flex-column">
+        <div class="w-100 p-2 max-600:flex-order-2 text-center">
+          <h2 class="text-3">Hello, I am hafiz</h2>
+          <p class="text-1.5 text-justify">
+            Perkenalkan, nama saya Hafiz Ilmi, seorang mahasiswa difabel Tuli di
+            Universitas Brawijaya Malang, jurusan S1 Teknik Informatika. Saya
+            memiliki kemampuan di bidang frontend.
+          </p>
         </div>
-        <div class="col-2">
-          <img src="img/fotodiri.jpg" alt="" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-1">
-          <h3>Pendidikan</h3>
-          <div class="list-pendidikan">
-            <table>
-              <tr>
-                <th>Unviersitas Brawijaya</th>
-                <td>S1 Teknik Informatika</td>
-                <td>2023 - sekarang</td>
-              </tr>
-              <tr>
-                <th>Unviersitas Brawijaya</th>
-                <td>D3 Teknologi Informasi</td>
-                <td>2020 -2023</td>
-              </tr>
-            </table>
-          </div>
-        </div>
-        <div class="col-2">
-          <h3>Pengalaman</h3>
-          <div class="list-pengalaman">
-            <table>
-              <tr>
-                <th colspan="2">Tumbue Ai</th>
-              </tr>
-              <tr>
-                <td>Mobile Developer</td>
-                <td>Jan - Jun 2024</td>
-              </tr>
-              <tr>
-                <th colspan="2">PT Arkatama Multi Solusindo Malang</th>
-              </tr>
-              <tr>
-                <td>Programmer</td>
-                <td>Agu 2022 - Des 2022</td>
-              </tr>
-            </table>
-          </div>
+        <div class="w-100 max-600:flex-order-1 text-center">
+          <img src="img/fotodiri.jpg" alt="" class="w-60" />
         </div>
       </div>
-      <div class="skill">
-        <h2>SKILL</h2>
-        <div class="row">
-          <div class="col-1">
-            <h3>Frontend</h3>
-            <div class="row">
-              <div class="col">
-                <img src="img/html.svg" alt="">
-                <p>HTML</p>
-              </div>
-              <div class="col">
-                <img src="img/css.svg" alt="">
-                <p>CSS</p>
-              </div>
-              <div class="col">
-                <img src="img/javascript.svg" alt="">
-                <p>JS</p>
-              </div>
+      <div class="flex justify-content-center m-1 max-600:flex-column">
+        <div class="w-100 p-1">
+          <h2 class="text-2 text-center mb-1">Pendidikan</h2>
+          <div class="align-content-center m-0">
+            <p class="text-2 text-justify m-0 mb-1">Universitas Brawijaya</p>
+            <div class="flex">
+              <p class="text-1 text-justify m-0 w-35">
+                S1 Teknik Informatika
+              </p>
+              <p class="text-1 text-justify m-0 w-35">2023 - sekarang</p>
+            </div>
+            <div class="flex">
+              <p class="text-1 text-justify m-0 w-35">
+                D3 Teknologi Informasi
+              </p>
+              <p class="text-1 text-justify m-0 w-35">2020 - 2023</p>
             </div>
           </div>
-          <div class="col-1">
-            <h3>Backend</h3>
-            <div class="row">
-              <div class="col">
-                <img src="img/php.svg" alt="">
-                <p>PHP</p>
-              </div>
-              <div class="col">
-                <img src="img/mysql.svg" alt="">
-                <p>MySQL</p>
-              </div>
-              <div class="col">
-                <img src="img/codeigniter.svg" alt="">
-                <p>Codeigniter</p>
-              </div>
+        </div>
+        <div class="w-100 p-1">
+          <h2 class="text-2 text-center mb-1">Pengalaman</h2>
+          <div class="align-content-center m-0">
+            <p class="text-2 text-justify m-0 mb-1">Tumbue Ai</p>
+            <div class="flex">
+              <p class="text-1 text-justify m-0 w-35">
+                Mobile Developer
+              </p>
+              <p class="text-1 text-justify m-0 w-35">Jan - Jun 2024</p>
+            </div>
+          </div>
+          <div class="align-content-center m-0">
+            <p class="text-2 text-justify m-0 mb-1">
+              PT Arkatama Multi Solusindo
+            </p>
+            <div class="flex">
+              <p class="text-1 text-justify m-0 w-35">Programmer</p>
+              <p class="text-1 text-justify m-0 w-35">Agu - Des 2022</p>
             </div>
           </div>
         </div>
       </div>
     </main>
-    <footer>
-
-    </footer>
   </body>
 </html>

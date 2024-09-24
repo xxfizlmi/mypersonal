@@ -1,0 +1,40 @@
+@media (max-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .navbar .navbar-logo {
+    width: 100%;
+  }
+  .navbar ul {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .max-600\:flex-column {
+    --flex-direction-value: column;
+  }
+  .max-600\:justify-content-center {
+    --justify-content-value: center;
+  }
+  .max-600\:flex-order-1 {
+    --order: 1;
+  }
+  .max-600\:flex-order-2 {
+    --order: 2;
+  }
+  .max-600\:w-85 {
+    --w-value: 85%;
+  }
+
+  .max-600\:m-0 {
+    --m-value: 0;
+  }
+  .max-600\:text-center {
+    --text-align-value: center;
+  }
+  .max-600\:border {
+    border: 2px solid;
+  }
+}

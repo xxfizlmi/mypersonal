@@ -1,0 +1,18 @@
+@import url("/css/components/responsive.css");
+@import url("/css/components/size.css");
+@import url("/css/components/color.css");
+@import url("/css/components/text.css");
+@import url("/css/components/flexbox.css");
+@import url("/css/components/root.css");
+@import url("/css/components/navbar.css");
+
+body,
+html {
+  margin: 0;
+}
+
+
+
+.border {
+  border: 2px solid
+}

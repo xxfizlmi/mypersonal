@@ -1,0 +1,18 @@
+:root {
+  --left-1: 0 0 0 0;
+  --right-20: 0 20px 0 0;
+  --top-1: 0 0 0 0;
+  --bottom-0: 0 0 0 0;
+  --bottom-20: 0 0 20px 0;
+  --size-0: 0;
+  --size-20: 20px;
+  --size-25: 25px;
+  --size-30: 30px;
+  --size-35: 35px;
+  --size-40: 40px;
+  --size-60: 60px;
+  /* Color */
+  --blue: blue;
+  --white: white;
+  --red: red;
+}
