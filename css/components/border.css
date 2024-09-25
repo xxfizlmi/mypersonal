@@ -1,3 +1,14 @@
 .border {
   border: 2px solid;
 }
+
+[class*="border-radius-"] {
+    border-radius: var(--border-radius-value);
+  }
+
+.border-radius-1 {
+    --border-radius-value: var(--size-20);
+}
+.border-radius-2 {
+    --border-radius-value: var(--size-40);
+}
