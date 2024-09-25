@@ -5,6 +5,7 @@
 @import url("/css/components/flexbox.css");
 @import url("/css/components/root.css");
 @import url("/css/components/navbar.css");
+@import url("/css/components/border.css");
 
 body,
 html {
@@ -12,7 +13,7 @@ html {
 }
 
 
-
-.border {
-  border: 2px solid
+.card {
+  background-color: bisque;
 }
+

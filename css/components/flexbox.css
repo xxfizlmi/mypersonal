@@ -30,6 +30,13 @@
   --align-content-value: center;
 }
 
+[class*="align-self"] {
+  align-self: var(--align-self-value);
+}
+.align-self-flex-end {
+  --align-self-value:flex-end;
+}
+
 [class*="flex-order-"] {
   order: var(--order);
 }

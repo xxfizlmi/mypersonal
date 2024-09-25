@@ -55,6 +55,9 @@
 .p-2 {
   --p-value: var(--size-40);
 }
+.p-3 {
+  --p-value: var(--size-60);
+}
 
 /* Padding-right */
 [class*="pr-"] {
@@ -74,7 +77,10 @@
   --w-value: 6%;
 }
 .w-10 {
-  --w-value: 12%;
+  --w-value: 10%;
+}
+.w-20 {
+  --w-value: 20%;
 }
 .w-35 {
   --w-value: 35%;
@@ -101,10 +107,26 @@
   --w-value: 100%;
 }
 
+.w-max {
+  width: max-content;
+
+  --w-value: var(--max);
+}
+
 [class*="h-"] {
   height: var(--h-value);
 }
 
+.h-1 {
+  --h-value: var(--size-20);
+}
+.h-2 {
+  --h-value: var(--size-40);
+}
 .h-3 {
   --h-value: var(--size-60);
+}
+.h-max {
+  height: max-content;
+  /* --h-value: var(--max); */
 }
