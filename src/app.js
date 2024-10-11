@@ -57,7 +57,7 @@ sections.forEach((section) => {
 const projectsContainer = document.getElementById("projects-container");
 
 // Lokasi file JSON lokal
-const jsonURL = "/data/projects.json";
+const jsonURL = '/projects.json';
 
 fetch(jsonURL)
   .then((response) => {
